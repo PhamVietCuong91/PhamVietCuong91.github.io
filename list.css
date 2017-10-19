@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 1000px;
+	margin: auto;
+	height: 100%;
+	background: #444444;
+}
+
+#menu ul {
+	list-style-type: none;
+	background-color: #1f568b;
+	text-align: center;
+}
+
+#menu ul li {
+	color: #f1f1f1;
+	display: inline-table;
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+}
+
+#menu ul li a {
+	color: #f1f1f1;
+	text-decoration: none;
+	display: block;
+}
+
+#menu ul li a:hover {
+	background: #f1f1f1;
+	color: #333;
+}
+
+#menu ul li > .sub-menu {
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover > .sub-menu {
+	display: block;
+}
+
+#logo {
+	background-color: #ff6666;
+	text-align: center;
+	animation: title 10s ease infinite;
+}
+
+#logo h1 {
+	color: #f1f1f1;
+}
+
+#logo p {
+	color: #f1f1f1;
+}
+
+#logo img {
+	position: absolute;
+	top: 449px;
+    left: 164px;
+}
+
+@keyframes title {
+	0%  {background-color: #EF7126; color: #F9E559;}
+	25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+#chung {
+	margin-top: 45px;
+}
+
+
+.abc {
+	width: 500px;
+	float: left;
+	background-color: #cccccc;
+	font-weight: bold;
+	height: auto;
+}
+
+#gt {
+	border: 2px solid yellow;
+	background-color: violet;
+	line-height: 29px;
+	padding: 14px;
+}
+
+#gt h2 {
+	text-align: center;
+	font-family: Arial;
+	color: #f1f1f1;
+}
+
+#gt p {
+	text-align: center;
+}
+
+#km {
+	border: 2px solid yellow;
+	background-color: pink;
+	line-height: 29px;
+}
+
+#km h2 {
+	text-align: center;
+	font-family: Arial;
+	color: #f1f1f1;
+}
+
+#km p {
+	text-align: center;
+}
+
+#tieude {
+	background-color: red;
+	width: 215px;
+	height: 80px;
+	margin-top: 315px;
+	position: relative;
+	left: 395px;
+	padding-top: 19px;
+	animation: chung 10s ease infinite;
+}
+
+#tieude img {
+	position: relative;
+	top: -45px;
+    left: 215px;
+}
+
+#conga img {
+	position: relative;
+	top: -102px;
+    left: -92px;
+}
+
+@keyframes chung {
+	0%  {background-color: #EF7126; color: #F9E559;}
+	25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+.monan img {
+	width: 300px;
+	height: 300px;
+}
+
+.monan {
+	width: 33.333333%;
+	float: left;
+	position: relative;
+}
+
+#tonghop {
+	margin-top: -25px;
+	color: #f1f1f1;
+}
+
+#lauga {
+	text-align: center;
+}
+
+#ganuong {
+	text-align: center;
+}
+
+#gahap {
+	text-align: center;
+}

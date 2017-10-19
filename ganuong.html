@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Gà Nướng</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Hoc html co ban" />
+		<meta name="author" content="co ban" />
+		<meta name="keyword" content="hoc html.html co ban" />
+		<link rel="stylesheet" type="text/css" href="list.css">
+		<style>
+			p {
+				font-weight: bold;
+			}
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			body {
+				width: 1000px;
+				margin: auto;
+				height: 100%;
+				background: #cccccc;
+			}
+
+			#menu ul {
+				list-style-type: none;
+				background-color: #1f568b;
+				text-align: center;
+			}
+
+			#menu ul li {
+				color: #f1f1f1;
+				display: inline-table;
+				width: 130px;
+				height: 50px;
+				line-height: 50px;
+				position: relative;
+			}
+
+			#menu ul li a {
+				color: #f1f1f1;
+				text-decoration: none;
+				display: block;
+			}
+
+			#menu ul li a:hover {
+				background: #f1f1f1;
+				color: #333;
+			}
+
+			#menu ul li > .sub-menu {
+				display: none;
+				position: absolute;
+			}
+
+			#menu ul li:hover > .sub-menu {
+				display: block;
+			}
+		</style>
+
+	</head>
+	<body>
+
+		<div id="menu">
+			<ul>
+				<li><a href="List.html">Trang chủ</a></li>
+				<li><a href="List.html">Giới thiệu</a></li>
+				<li>
+					<a href="#">Thực đơn</a>
+					<ul class="sub-menu">
+						<li><a href="List.html#lauga">Lẩu gà</a></li>
+						<li><a href="List.html#ganuong">Gà nướng</a></li>
+						<li><a href="List.html#gahap">Gà hấp</a></li>
+					</ul>
+				</li>
+				<li><a href="List.html">Liên hệ</a></li>
+			</ul>
+		</div>
+
+		<img src="ga/ganuong1.jpg" />
+
+		<p>NGUYÊN LIỆU</p>
+		<p>1,5kg gà ta</p>
+		<p>50g ớt sừng không cay</p>
+		<p>20g ớt xay</p>
+		<p>10g ớt khô Huế</p>
+		<p>20g hành tím khô</p>
+		<p>20 tỏi</p>
+		<p>20g tương ớt</p>
+		<p>10ml màu điều</p>
+		<p>10g bột thịt gà Knorr</p>
+		<p>30g bột chua cay kiểu Thái Knorr hoặc súp nền lẩu Thái Knorr</p>
+		<p>10ml dầu ăn</p>
+	</body>
+</html>
