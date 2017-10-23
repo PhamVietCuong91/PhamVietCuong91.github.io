@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tạo trang HTML dùng position:absolute;</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Hoc html co ban" />
+		<meta name="author" content="co ban" />
+		<meta name="keyword" content="hoc html.html co ban" />
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				background-color: #e5e5e5;
+				margin: 0;
+				padding: 0;
+			}
+
+			h1 {
+				margin: 30px 0 10px 0;
+				color: #404040;
+				font-size: 24px;
+			}
+
+			#container {
+				max-width: 1000px;
+				margin: auto;
+			}
+
+			#banner {
+				border: 1px violet solid;
+			}
+
+			#main-menu {
+				text-align: center;
+				background-color: yellow;
+				position: relative;
+			}
+
+			#main-menu a {
+				font-size: 20px;
+				color: #737373;
+				text-decoration: none;
+				border: 2px violet solid;
+			}
+
+			#main-menu > a:first-child {
+				position: absolute;
+				top: -180px;
+   				left: 68px;
+			}
+
+			#chat {
+				position: fixed;
+				top: 460px;
+    			right: 100px;
+    			cursor: pointer; 
+			}
+
+			#boanh1 img {
+				width: 240px;
+				height: 180px;
+			}
+
+			#boanh1 {
+				display: block;
+				float: right;
+				background: blue;
+    			width: 750px;
+			}
+
+			#menu {
+				display: block;
+				float: left;
+				width: 200px;
+    			background: #3300ff;
+    			height: 552px;
+    			border: 1px solid brown;
+    			position: absolute;
+			}
+
+			#menu ul {
+				background: #8ad385;
+				width: auto;
+				padding: 0;
+				list-style-type: none;
+			}
+
+			#menu ul li {
+				width: auto;
+				height: 50px;
+				line-height: 50px;
+				border-bottom: 1px solid #e8e8e8;
+				padding: 0 1em;
+			}
+
+			#menu ul li a {
+				text-decoration: none;
+				color: #333;
+				font-weight: bold;
+				display: block;
+				text-align: center;
+			}
+
+			#menu ul li:hover {
+				background: yellow;
+			}
+
+		
+			
+
+			
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="banner">
+				<img src="img/nissan.jpg" width="1000" height="600" />
+			</div>
+
+			<div id="main-menu">
+				<a href="#"><img src="img/matcuoi.jpg" /></a>
+				<a href="#">Trang chủ</a>
+				<a href="#">Giới Thiệu</a>
+				<a href="#">Album ảnh</a>
+				<a href="#">Bài đăng</a>
+			</div>
+
+			<h1>Họ tên: Phạm Việt Cường</h1>
+
+			<div id="menu">
+				<ul>
+					<li>
+						<a href="#">Giới thiệu</a>
+					</li>
+					<li>
+						<a href="#">Thông số kỹ thuật</a>
+					</li>
+					<li>
+						<a href="#">Giá xe</a>
+					</li>
+					<li>
+						<a href="#">Màu xe</a>
+					</li>
+					<li>
+						<a href="#">Bảo dưỡng</a>
+					</li>
+				</ul>
+
+				<img src="img/images1.jpg" width="190" height="200">		
+			</div>
+
+			<div id="boanh1">
+				<div>
+					<img class="hieuung" src="img/images1.jpg" title="xe1" alt="oto" />
+					<img src="img/image2.jpg" title="xe2" alt="oto" />
+					<img src="img/image3.jpg" title="xe3" alt="oto" />
+				</div>
+
+				<div>
+					<img src="img/lamboghini.jpg" title="xe4" alt="oto" />
+					<img src="img/image5.jpg" title="xe5" alt="oto" />
+					<img src="img/image6.jpg" title="xe6" alt="oto" />
+				</div>
+
+				<div>
+					<img src="img/lamborghini-lp700.jpg" title="xe7" alt="oto" />
+					<img src="img/mazda6.jpg" title="xe8" alt="oto" />
+					<img src="img/mazda-CX5.jpg" title="xe9" alt="oto" />
+				</div>
+			</div>
+			<div id="chat">
+				<img src="img/image.png" width="30" height="30" />
+			</div>
+			
+		</div>
+	</body>
+</html>

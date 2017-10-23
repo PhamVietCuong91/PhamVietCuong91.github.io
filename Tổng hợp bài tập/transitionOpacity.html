@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>Ảnh xe BMW I8</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Hoc html co ban" />
+		<meta name="author" content="co ban" />
+		<meta name="keyword" content="hoc html.html co ban" />
+		<style>
+
+			.oto img {
+				opacity: 0.5;
+				transition: opacity 0.5s ease-in-out;
+			}
+
+			.oto:hover img {
+				opacity: 1;
+				
+			}
+			
+
+			.xemay {
+				transition: all 0.5s ease;
+			}
+
+			.xemay:hover {
+				transform: translate(20px, 5px); /*20px là di chuyển theo chiều ngang
+					5px là di chuyển theo chiều dọc*/
+
+				box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.2);
+				/*box-shadow: là bóng của phần tử
+				0px: là vị trí của bóng theo chiều ngang;
+				5px: là vị trí của bóng theo chiều dọc;
+				6px: là khoảng mờ bóng mờ;
+				0px: kích thước của bóng ;
+				rgba: màu của bóng;*/
+			}
+
+			.cho {
+				overflow: hidden; /*thuộc tính giúp giá trị không bị tràn ra ngoài khỏi khung*/
+			}
+
+			.cho img {
+				transition: all 0.5s linear;
+			}
+
+			.cho:hover img {
+				transform: scale(3); /*thuộc tính phóng to ảnh
+				scale(5): là giá trị phóng to ảnh gấp bn lần;*/
+			}
+
+			#box {
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				box-shadow: 0 5px 5px 0;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<div class="oto">
+			<img src="img/BMW-I8.jpg" />
+		</div>
+
+		<a href="index.html#bmw"><h1>Xe ô tô BMW I8</h1></a>
+		<p>Giá: Thỏa thuận VND</p>
+		<p>Tình trạng: còn hàng</p>
+		<p>Xuất sứ: Đức</p>
+
+
+		<div class="xemay">
+			<img src="img/cbr250.jpg">
+		</div>
+
+		<div class="cho">
+			<img src="img/image10.jpg">
+		</div>
+
+		<div id="box">
+			
+		</div>
+
+	</body>
+</html>
