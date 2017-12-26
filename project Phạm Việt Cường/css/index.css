@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    float: left;
+    height: 80px; 
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.container {
+    margin-right: auto;
+    width: 100% !important;
+    margin-left: auto;
+    padding: 0;
+}
+
+.navbar-inverse {
+    background-color: black;
+    border-bottom: red 2px solid;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+h4 {
+    color: red;
+}
+
+.dropdown-menu {
+    min-width: 120px;
+    background-color: black;
+}
+
+.dropdown-menu>li>a {
+    color: #fff;
+}
+
+
+
