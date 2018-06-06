@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+html{
+    font-size: 14px;
+    box-sizing: border-box;
+}
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+body{
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    color: #333;
+    background-color: #eee;
+}
+
+/* MENU */
+.menu{
+    background-color: #fff;
+    width: 100%;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 1em 3em;
+    display: block;
+    text-decoration: none;
+    color: orange;
+    font-family: arial;
+    transition: all 0.4s;
+    border-radius: 5px;
+    margin: 0 1em;
+}
+.menu ul li a:hover{
+    background-color: orange;
+    color: #fff;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+.banner1 img{
+    width: 100%;
+    height: 500px;
+}
+.banner2 img{
+    width: 100%;
+    height: 500px;
+}
+/* END MENU */
+
+/* MAIN CONTAINER */
+
+h1,h2,h3,h4,h5,h6,figure,p{
+    margin: 0;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+.mb-4{
+    margin-bottom: 1rem;
+}
+[class*="bg-"]{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.bg-primary{
+    background-color: rgb(228, 145, 22);
+}
+.bg-secondary{
+    background-color: rgb(63, 63, 163);
+}
+
+.container-fluid,
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 576px){
+    .container{ max-width: 540px;}
+}
+@media (min-width: 768px){
+    .container{ max-width: 720px;}
+}
+@media (min-width: 992px){
+    .container{ max-width: 940px;}
+}
+@media (min-width: 1200px){
+    .container{ max-width: 1140px;}
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+[class^="col"]{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    display: flex;
+}
+@media (min-width: 576px){
+    .col-sm-4{
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .col-sm-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width: 768px){
+    .col-md-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.main-heading{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    padding-left: 0.5rem;
+}
+.blog{
+    box-shadow: 1px 3px 3px rgba(0,0,0,.3);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+@media (min-width: 576px){
+    .blog.horizal{
+        flex-direction: row;
+    }
+    .blog.horizal .blog-image,
+    .blog.horizal .blog-body{
+        flex: 1;
+    }
+}
+.blog-body{
+    padding: 0.5rem;
+    background-color: #fff;
+    flex: 1;
+    text-align: center;
+}
+.blog-title{
+    margin: 0.5rem 0;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: orange;
+    text-align: center;
+}
+.blog-content{
+    margin: 0.25rem 0;
+    color: orange;
+    text-align: center;
+}
+.btn{
+    padding: 0.6em 2em;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: orange;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.contact-form{
+    margin-top: 20px;
+}
+.form-control{
+  border: none;
+  background-color: orange;
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  margin-left: 0;
+}
+.form-group button{
+  background: orange;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.form-group button:hover{
+  background-color: red;
+  color: white;
+}
+
+footer{
+    position: relative;
+  }
+  footer h1{
+    font-weight: inherit;
+    font-style: italic;
+    color: rgb(168, 162, 162);
+    text-align: center;
+    padding: 0 20px;
+  }
+  footer p{
+    font-weight: inherit;
+    font-style: italic;
+    color: rgb(173, 167, 167);
+    text-align: center;
+  }
+
+
+
+/* END MAIN CONTAINER */
